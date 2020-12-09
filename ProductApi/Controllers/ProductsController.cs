@@ -13,10 +13,15 @@ namespace ProductApi.Controllers
     {
 
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
+            return Ok(new string[] {"Laptop","Model", "Mobile Phone", "Pencil", "NoteBook", "Brush"});
+        }
 
-            return new string[] {"Laptop","Model", "Mobile Phone"};
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            return Ok(new string[] {"Pencil", "NoteBook", "Brush"});
         }
     }
 }

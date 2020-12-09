@@ -12,9 +12,9 @@ namespace CustomerApi.Controllers
     public class CustomersController : ControllerBase
     {
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get(){
+        public IActionResult Get(){
 
-            return new string[] {"Customer1", "Customer2"};
+            return Ok(new string[] {"Customer1", "Customer2"});
         }
     }
 }

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kadirkaragoz\\Desktop\\Kişisel\\Makaleler\\app\\Ocelot-Api\\OcelotGateway\\OcelotGateway.csproj": {}
+    "C:\\Users\\karag\\Desktop\\Makaleler\\app\\NetCoreApiGateway\\NetCoreOcelot\\OcelotGateway\\OcelotGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kadirkaragoz\\Desktop\\Kişisel\\Makaleler\\app\\Ocelot-Api\\OcelotGateway\\OcelotGateway.csproj": {
+    "C:\\Users\\karag\\Desktop\\Makaleler\\app\\NetCoreApiGateway\\NetCoreOcelot\\OcelotGateway\\OcelotGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kadirkaragoz\\Desktop\\Kişisel\\Makaleler\\app\\Ocelot-Api\\OcelotGateway\\OcelotGateway.csproj",
+        "projectUniqueName": "C:\\Users\\karag\\Desktop\\Makaleler\\app\\NetCoreApiGateway\\NetCoreOcelot\\OcelotGateway\\OcelotGateway.csproj",
         "projectName": "OcelotGateway",
-        "projectPath": "C:\\Users\\kadirkaragoz\\Desktop\\Kişisel\\Makaleler\\app\\Ocelot-Api\\OcelotGateway\\OcelotGateway.csproj",
-        "packagesPath": "C:\\Users\\kadirkaragoz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kadirkaragoz\\Desktop\\Kişisel\\Makaleler\\app\\Ocelot-Api\\OcelotGateway\\obj\\",
+        "projectPath": "C:\\Users\\karag\\Desktop\\Makaleler\\app\\NetCoreApiGateway\\NetCoreOcelot\\OcelotGateway\\OcelotGateway.csproj",
+        "packagesPath": "C:\\Users\\karag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karag\\Desktop\\Makaleler\\app\\NetCoreApiGateway\\NetCoreOcelot\\OcelotGateway\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\kadirkaragoz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\karag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

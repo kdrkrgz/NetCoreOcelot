@@ -21,8 +21,8 @@ namespace CustomerApi
 
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>()
-                    .UseUrls("http://localhost:5001");
+                    webBuilder.UseStartup<Startup>();
+                   // .UseUrls("http://localhost:5001");
                 });
     }
 }

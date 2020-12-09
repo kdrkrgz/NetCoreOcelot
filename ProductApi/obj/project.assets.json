@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\kadirkaragoz\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\karag\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kadirkaragoz\\Desktop\\Kişisel\\Makaleler\\app\\Ocelot-Api\\ProductApi\\ProductApi.csproj",
+      "projectUniqueName": "C:\\Users\\karag\\Desktop\\Makaleler\\app\\NetCoreApiGateway\\NetCoreOcelot\\ProductApi\\ProductApi.csproj",
       "projectName": "ProductApi",
-      "projectPath": "C:\\Users\\kadirkaragoz\\Desktop\\Kişisel\\Makaleler\\app\\Ocelot-Api\\ProductApi\\ProductApi.csproj",
-      "packagesPath": "C:\\Users\\kadirkaragoz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kadirkaragoz\\Desktop\\Kişisel\\Makaleler\\app\\Ocelot-Api\\ProductApi\\obj\\",
+      "projectPath": "C:\\Users\\karag\\Desktop\\Makaleler\\app\\NetCoreApiGateway\\NetCoreOcelot\\ProductApi\\ProductApi.csproj",
+      "packagesPath": "C:\\Users\\karag\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\karag\\Desktop\\Makaleler\\app\\NetCoreApiGateway\\NetCoreOcelot\\ProductApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\kadirkaragoz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\karag\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

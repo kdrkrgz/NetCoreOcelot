@@ -24,8 +24,8 @@ namespace OcelotGateway
                 })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>()
-                    .UseUrls("https://localhost:5000");
+                    webBuilder.UseStartup<Startup>();
+                    //.UseUrls("https://localhost:5000");
                 });
     }
 }
