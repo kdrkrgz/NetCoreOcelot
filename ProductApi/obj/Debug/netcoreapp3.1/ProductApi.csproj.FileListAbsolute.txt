@@ -36,3 +36,9 @@ C:\Users\karag\Desktop\Makaleler\app\NetCoreApiGateway\NetCoreOcelot\ProductApi\
 C:\Users\karag\Desktop\Makaleler\app\NetCoreApiGateway\NetCoreOcelot\ProductApi\obj\Debug\netcoreapp3.1\ProductApi.dll
 C:\Users\karag\Desktop\Makaleler\app\NetCoreApiGateway\NetCoreOcelot\ProductApi\obj\Debug\netcoreapp3.1\ProductApi.pdb
 C:\Users\karag\Desktop\Makaleler\app\NetCoreApiGateway\NetCoreOcelot\ProductApi\obj\Debug\netcoreapp3.1\ProductApi.genruntimeconfig.cache
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\ProductApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\ProductApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\ProductApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\ProductApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\ProductApi\obj\Debug\netcoreapp3.1\ProductApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\ProductApi\obj\Debug\netcoreapp3.1\ProductApi.csproj.CopyComplete

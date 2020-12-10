@@ -27,6 +27,20 @@ namespace ProductApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddSwaggerGen(s => {
+                s.SwaggerDoc("ProductSwagger", new Microsoft.OpenApi.Models.OpenApiInfo{
+                    Version = "1.0.0",
+                    Title = ".Net Core Web Api With Swagger",
+                    Description = ".Net Core Web Api With Swagger",
+                    Contact = new Microsoft.OpenApi.Models.OpenApiContact(){
+                        Name = "Product Api Support",
+                        Email = "kadir@kadirkaragoz.com",
+                        Url = new Uri("https://kadirkaragoz.com")
+                    },
+                    TermsOfService = new Uri("http://example.com/terms/")
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +53,11 @@ namespace ProductApi
             app.UseDeveloperExceptionPage();
 
             //app.UseHttpsRedirection();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(s => {
+                s.SwaggerEndpoint("/swagger/ProductSwagger/swagger.json", "Swagger With Ocelot");
+            });
 
             app.UseRouting();
 

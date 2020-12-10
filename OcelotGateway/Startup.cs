@@ -30,7 +30,8 @@ namespace OcelotGateway
             services.AddControllers();
             // Ocelot
             services.AddOcelot();
-
+            services.AddSwaggerForOcelot(Configuration);
+ 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,14 +54,21 @@ namespace OcelotGateway
 
             app.UseAuthorization();
 
+            // app.UseSwaggerForOcelotUI(opt => {
+            //       opt.PathToSwaggerGenerator = "/swagger/docs";
+            // });
+
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
 
-            // app.UseOcelot().Wait(); // waitable or await like after this
+            app.UseSwaggerForOcelotUI(opt => {
+                  opt.PathToSwaggerGenerator = "/swagger/docs";
+            });
 
+            // app.UseOcelot().Wait(); // waitable or await like after this
             await app.UseOcelot();       
 
         }

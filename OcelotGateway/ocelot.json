@@ -14,7 +14,20 @@
         "UpstreamHttpMethod": [ "Get" ]
         },
         {
-            "DownstreamPathTemplate": "/{url}",
+            "DownstreamPathTemplate": "/{customers}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5002
+                }
+            ],
+            "UpstreamPathTemplate": "/{customers}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "CustomerApi"
+            },
+        {
+            "DownstreamPathTemplate": "/{products}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
@@ -22,8 +35,9 @@
                     "Port": 5004
                 }
             ],
-            "UpstreamPathTemplate": "/{url}",
-            "UpstreamHttpMethod": [ "Get" ]
+            "UpstreamPathTemplate": "/{products}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ProductApi"
             },
         {
             "DownstreamPathTemplate": "/api/products",
@@ -57,7 +71,33 @@
             }
             }
     ],
+
+    "SwaggerEndPoints": [
+        {
+            "Key": "ProductApi",
+            "TransformByOcelotConfig": false,
+            "Config": [
+                {
+                  "Name": "ProductApi",
+                  "Version": "v1",
+                  "Url": "https://localhost:5005/swagger/ProductSwagger/swagger.json"
+                }
+              ]
+        },
+        {
+            "Key": "CustomerApi",
+            "TransformByOcelotConfig": false,
+            "Config": [
+                {
+                  "Name": "CustomerApi",
+                  "Version": "v1",
+                  "Url": "https://localhost:5003/swagger/CustomerSwagger/swagger.json"
+                }
+              ]
+        }
+    ],
     "GlobalConfiguration": {
         "BaseUrl": "https://localhost:5000"
     }
+    
 }

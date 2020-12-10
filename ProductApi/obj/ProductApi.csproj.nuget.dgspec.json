@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karag\\Desktop\\Makaleler\\app\\NetCoreApiGateway\\NetCoreOcelot\\ProductApi\\ProductApi.csproj": {}
+    "C:\\Users\\kadirkaragoz\\Desktop\\Kişisel\\Makaleler\\app\\Ocelot-Api\\ProductApi\\ProductApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karag\\Desktop\\Makaleler\\app\\NetCoreApiGateway\\NetCoreOcelot\\ProductApi\\ProductApi.csproj": {
+    "C:\\Users\\kadirkaragoz\\Desktop\\Kişisel\\Makaleler\\app\\Ocelot-Api\\ProductApi\\ProductApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karag\\Desktop\\Makaleler\\app\\NetCoreApiGateway\\NetCoreOcelot\\ProductApi\\ProductApi.csproj",
+        "projectUniqueName": "C:\\Users\\kadirkaragoz\\Desktop\\Kişisel\\Makaleler\\app\\Ocelot-Api\\ProductApi\\ProductApi.csproj",
         "projectName": "ProductApi",
-        "projectPath": "C:\\Users\\karag\\Desktop\\Makaleler\\app\\NetCoreApiGateway\\NetCoreOcelot\\ProductApi\\ProductApi.csproj",
-        "packagesPath": "C:\\Users\\karag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karag\\Desktop\\Makaleler\\app\\NetCoreApiGateway\\NetCoreOcelot\\ProductApi\\obj\\",
+        "projectPath": "C:\\Users\\kadirkaragoz\\Desktop\\Kişisel\\Makaleler\\app\\Ocelot-Api\\ProductApi\\ProductApi.csproj",
+        "packagesPath": "C:\\Users\\kadirkaragoz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kadirkaragoz\\Desktop\\Kişisel\\Makaleler\\app\\Ocelot-Api\\ProductApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\karag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kadirkaragoz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

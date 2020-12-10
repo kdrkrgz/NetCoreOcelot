@@ -60,3 +60,12 @@ C:\Users\karag\Desktop\Makaleler\app\NetCoreApiGateway\NetCoreOcelot\OcelotGatew
 C:\Users\karag\Desktop\Makaleler\app\NetCoreApiGateway\NetCoreOcelot\OcelotGateway\obj\Debug\netcoreapp3.1\OcelotGateway.dll
 C:\Users\karag\Desktop\Makaleler\app\NetCoreApiGateway\NetCoreOcelot\OcelotGateway\obj\Debug\netcoreapp3.1\OcelotGateway.pdb
 C:\Users\karag\Desktop\Makaleler\app\NetCoreApiGateway\NetCoreOcelot\OcelotGateway\obj\Debug\netcoreapp3.1\OcelotGateway.genruntimeconfig.cache
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\OcelotGateway\bin\Debug\netcoreapp3.1\Kros.Utils.dll
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\OcelotGateway\bin\Debug\netcoreapp3.1\MMLib.SwaggerForOcelot.dll
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\OcelotGateway\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\OcelotGateway\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\OcelotGateway\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\OcelotGateway\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\OcelotGateway\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\OcelotGateway\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\kadirkaragoz\Desktop\Kişisel\Makaleler\app\Ocelot-Api\OcelotGateway\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
